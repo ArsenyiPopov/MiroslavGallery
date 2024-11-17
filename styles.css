@@ -35,6 +35,9 @@ body {
     background-color: #333;
     color: #fff;
 }
+.logo {
+    width: 120px;
+}
 
 .header .logo a, .footer .logo a {
     color: #fff;
@@ -135,6 +138,13 @@ body {
     flex-direction: row-reverse;
     justify-content: center;
 }
+.prod_left:hover {
+scale: 1.05;
+transition-duration: 1s;
+}
+.prod_left {
+transition-duration: 1s;
+}
 
 
 
@@ -180,4 +190,6 @@ body {
         z-index: 3;
     }
 }
+
+
 
